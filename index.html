@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Fortune Teller Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Fortune Teller Quiz</h2>
+        <h4>Check all that apply</h4>
+      </div>
+      <form id="luckquiz">
+        <div class="form-group">
+          <p>How many unlucky things have happened to you in the past year?</p>
+          <input type="checkbox" name="unlucky" value="cat">Crossed a black cat.<br>
+          <input type="checkbox" name="unlucky" value="ladder">Walked under a ladder.<br>
+          <input type="checkbox" name="unlucky" value="crack">Stepped on a crack.<br>
+          <input type="checkbox" name="unlucky" value="mirror">Broke a mirror.<br>
+          <input type="checkbox" name="unlucky" value="sneeze">Sneezed one time.<br>
+          <input type="checkbox" name="unlucky" value="tripped">Tripped over your own feet.<br>
+          <input type="checkbox" name="unlucky" value="salt">Spilled salt.<br>
+        </div>
+        <div class="form-group">
+          <p>How many lucky things have happened to you in the past year?</p>
+          <input type="checkbox" name="lucky" value="bird">Bird pooped on you.<br>
+          <input type="checkbox" name="lucky" value="clover">Found a four leaf clover.<br>
+          <input type="checkbox" name="lucky" value="wishbone">Broke the bigger half of wishbone.<br>
+          <input type="checkbox" name="lucky" value="sweep">Touched by a chimney sweep.<br>
+          <input type="checkbox" name="lucky" value="ladybug">Ladybug landed on you.<br>
+          <input type="checkbox" name="lucky" value="foot">Carried a rabbits foot.<br>
+          <input type="checkbox" name="lucky" value="horseshoe">Kept upwards horseshoe in your house.<br>
+          <input type="checkbox" name="lucky" value="rainbow">Saw a rainbow,<br>
+        </div>
+       <button type="submit">Submit Answers</button>
+      </form>
+    </div>
+    <p id=fortune></p>
+  </body>
+</html>
